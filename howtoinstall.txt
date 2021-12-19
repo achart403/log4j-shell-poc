@@ -1,0 +1,8 @@
+1. git clone log4j exploit repo from github
+1. install pip3 -r requirements.txt nya
+2. install default jdk & jre module jika belum tersedia
+   - sudo apt-get install default-jre
+   - sudo apt-get install default-jdk
+3. lalu buat folder ./jdk1.8.0_20/bin/ didalam folder reponya
+4. symlink /usr/bin/java & /usr/bin/javac yang sudah terinstall ke folder yang sudah dibuat
+5. jalankan python3 poc.py 
